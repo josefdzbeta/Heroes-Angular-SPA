@@ -1,0 +1,112 @@
+{
+  "heroes": [
+    {
+      "id": "3",
+      "name": "Wonder Woman",
+      "superPower": "Super strength, flight, combat skills",
+      "image": "https://static.posters.cz/image/1300/art-photo/wonder-woman-comics-i116152.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Batman",
+      "superPower": "Peak human physical and mental conditioning, martial arts master",
+      "image": "https://www.mundodeportivo.com/alfabeta/hero/2023/11/batman-es-un-heroe-iconico-de-dc-1.png?width=768&aspect_ratio=16:9&format=nowebp"
+    },
+    {
+      "id": "5",
+      "name": "Superman",
+      "superPower": "Super strength, flight, invulnerability, heat vision, freeze breath",
+      "image": "https://sm.ign.com/ign_es/news/p/playstatio/playstation-superman-game-reference-in-activision-blizzard-c_kbbc.jpg"
+    },
+    {
+      "id": "6",
+      "name": "The Flash",
+      "superPower": "Super speed, time travel, dimensional travel",
+      "image": "https://emorywheel.com/wp-content/uploads/2016/10/ac1fafb4cef5bb6bf83b03a08c3d20d3-1280x640.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Green Lantern",
+      "superPower": "Hard-light constructs, instant weaponry, flight, force fields",
+      "image": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/08/Green-Lantern.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Black Widow",
+      "superPower": "Expert tactician, martial artist, and marksman",
+      "image": "https://disneyartonmain.com/cdn/shop/products/black_widow_marvel.jpg?v=1625873006"
+    },
+    {
+      "id": "9",
+      "name": "Thor",
+      "superPower": "Super strength, control over thunder and lightning, flying",
+      "image": "https://www.spiritmiracle.com/wp-content/uploads/2023/05/thor-holding-hammer.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Hulk",
+      "superPower": "Unlimited strength, invulnerability, regeneration",
+      "image": "https://i.pinimg.com/564x/6f/7d/9f/6f7d9f352ff7be13ca32f68b76e12106.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Captain America",
+      "superPower": "Peak human strength, endurance, and agility, expert tactician, hand-to-hand combatant",
+      "image": "https://static.posters.cz/image/1300/posters/captain-america-under-fire-i127942.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Black Panther",
+      "superPower": "Enhanced strength, agility, and senses, Vibranium suit",
+      "image": "https://upload.wikimedia.org/wikipedia/en/9/9f/Black_Panther_OS_Vol_1_2.png"
+    },
+    {
+      "id": "13",
+      "name": "Doctor Strange",
+      "superPower": "Sorcery, interdimensional teleportation, time manipulation",
+      "image": "https://www.akiracomics.com/imagenes/poridentidad?identidad=a8ca0f63-fe79-4c1f-8447-7ad488b2af27&ancho=850&alto="
+    },
+    {
+      "id": "14",
+      "name": "Captain Marvel",
+      "superPower": "Super strength, flight, energy projection",
+      "image": "https://assets1.ignimgs.com/thumbs/userUploaded/2018/12/4/captainmarvel1280-1543892883252.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Aquaman",
+      "superPower": "Underwater breathing, super strength, telepathic control over marine life",
+      "image": "https://i.blogs.es/fc993d/aquaman-new-52-comics/1366_2000.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Scarlet Witch",
+      "superPower": "Reality manipulation, telekinesis, telepathy",
+      "image": "https://aiptcomics.com/wp-content/uploads/2023/04/clean-2.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Wolverine",
+      "superPower": "Regenerative healing factor, adamantium-reinforced skeleton, retractable claws",
+      "image": "https://i.pinimg.com/736x/75/51/3b/75513b1d69721ecd0123c846b7a3d228.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Cyborg",
+      "superPower": "Super strength, advanced technology, weapon integration",
+      "image": "https://media.wired.com/photos/59549a2038978176dacc64b4/master/pass/Cyborg.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Deadpool",
+      "superPower": "Regenerative healing factor, skilled marksman and swordsman",
+      "image": "https://media.uiargonaut.com/wp-content/uploads/2016/05/rawrfeb3.jpg"
+    },
+    {
+      "id": "20",
+      "name": "Jean Grey",
+      "superPower": "Telepathy, telekinesis, Phoenix Force",
+      "image": "https://i0.wp.com/marvelsnapzone.com/wp-content/uploads/Jean-Grey.png?fit=909%2C511&ssl=1"
+    }
+  ]
+}

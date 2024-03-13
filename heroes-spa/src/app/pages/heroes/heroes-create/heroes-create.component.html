@@ -1,0 +1,26 @@
+<mat-card>
+  <form [formGroup]="heroForm" (ngSubmit)="onSubmit()">
+    <mat-card-header>
+      <mat-card-title>Create New Hero</mat-card-title>
+    </mat-card-header>
+
+    <mat-card-content>
+      <mat-form-field appearance="fill">
+        <mat-label>Name</mat-label>
+        <input matInput formControlName="name">
+      </mat-form-field>
+
+      <mat-form-field appearance="fill">
+        <mat-label>Super Powers</mat-label>
+        <input matInput formControlName="superPower">
+      </mat-form-field>
+
+      <input type="file" accept="image/png, image/jpeg" (change)="onFileSelected($event)" required>
+    </mat-card-content>
+
+    <mat-card-actions>
+      <button mat-raised-button type="submit" color="primary" [disabled]="!heroForm.valid">Create Hero</button>
+      <button mat-raised-button color="warn" (click)="cancel()">Cancel</button>
+    </mat-card-actions>
+  </form>
+</mat-card>

@@ -1,0 +1,40 @@
+<div class="title-container">
+  <h1 class="itemcenter">Heroes</h1>
+  <button mat-raised-button class="itemright dodger" [routerLink]="['/create-hero']"> Create Heroe </button>
+</div>
+
+<div class="search-input">
+  <mat-form-field>
+    <mat-label>Filter by Hero name</mat-label>
+    <input matInput [(ngModel)]="filterQuery" (keyup)="applyFilter()"><mat-icon matSuffix>search</mat-icon>
+  </mat-form-field>
+</div>
+@if (isLoading) {
+  <div class="spinner">
+    <mat-progress-spinner
+    color="primary"
+    mode="indeterminate">
+    </mat-progress-spinner>
+  </div>
+}
+@if (heroes$ | async; as heroes) {
+<div class="heroes-container">
+@for (hero of heroes; track $index) {
+  <div class="container-card">
+    <mat-card class="hero-card">
+      <mat-card-header>
+        <mat-card-title>{{ hero.name | titlecase }}</mat-card-title>
+      </mat-card-header>
+      <img mat-card-image [src]="hero.image" alt="{{ hero.name }}">
+      <mat-card-content>
+        <h2>{{ hero.superPower }}</h2>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button class="dodger" [routerLink]="['/edit-hero', hero.id]"><mat-icon>edit</mat-icon>Edit</button>
+          <button mat-raised-button color="warn" (click)="openDeleteConfirmDialog(hero)"><mat-icon>delete</mat-icon>Delete Hero</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+}
+</div>
+}
